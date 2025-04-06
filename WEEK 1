@@ -19,15 +19,15 @@ def calculator():
             print(f"\n {num1} * {num2} = {result}")
         elif operation == "/":
             if num2 == 0:
-                print("\n🚨 Error: Division by zero is not allowed.")
+                print("\n Error: Division by zero is not allowed.")
             else:
                 result = num1 / num2
                 print(f"\n {num1} / {num2} = {result}")
         else:
-            print("\n❌ Invalid operation! Please enter +, -, *, or /.")
+            print("\n Invalid operation! Please enter +, -, *, or /.")
     
     except ValueError:
-        print("\n❌ Error: Please enter valid numbers!")
+        print("\n Error: Please enter valid numbers!")
 
 # Run the calculator
 calculator()
